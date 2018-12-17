@@ -23,7 +23,7 @@ En el caso de windows viene un instalador con muchas opciones, esto es lo que de
   - En choosing HTTP seleccionar la primera
   - En configure the line seleccionar la primera
   - en confugure the terminal seleccionar la primera
-  - en Configuring extra opt seleccionar todas
+  - en configuring extra opt seleccionar todas
 Con esta configuraciónte bajará una terminal especial para trabajar con git
 Para trabajar con git se usa la terminal, con la que se instala es más fácil.
 Usar el siguiente comando para comprobar que se instaló.
@@ -40,7 +40,7 @@ Por ejemplo:
 ```
 cd Documents/proyecto
 ```
-Otra forma es hacer click derecho y seleccionar 'GIT Bash Here', eso te abre la consola ubicada en el directorio que seleccionaste
+Otra forma es hacer click derecho y seleccionar 'GIT Bash Here', eso te abre la consola ubicada en el directorio que seleccionaste.  
 El comando `cd` nos sirve para movernos entre diectorios.  
 Algunos ejemplos:
 ```
