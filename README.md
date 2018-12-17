@@ -97,3 +97,6 @@ git remote add origin URL_QUE_COPIASTE
 11. hacemos la iteración básica
 12. Hacemos `git push --all` para subir nuestros cambios a github
 13. comprobamos en github
+##### Plus
+Podemos subir nuestras páginas web a github y hacer que él la muestre.
+1. subir los cambios de nuestra página web
