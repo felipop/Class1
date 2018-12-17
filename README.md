@@ -80,6 +80,17 @@ El comando `git commit -m "mensaje"` guarda los cambios con el mensaje que le di
 ### 5. **Crear una cuenta en github**
 Registro básico
 ### 6. **Enlazar el repositorio con github**
-Creamos un nuevo repositorion en github con el nombre del proyecto.  
-Lo inicializamos con un README.  
-Elegimos la licencia que queremos que tenga el proyecto, en github todo es público.  
+1. Creamos un nuevo repositorion en github con el nombre del proyecto.  
+2. Lo inicializamos con un README.  
+3. Elegimos la licencia que queremos que tenga el proyecto, en github todo es público.  
+4. Abrimos el readme y le damos una descripción al proyecto con un formato https://help.github.com/articles/basic-writing-and-formatting-syntax/  
+5. Ahora vamos al repositorio en github, le damos en clonar/descargar.  
+6. Copiamos el link https
+7. Vamos a nuestra consola, en la carpeta del proyecto y ponemos:
+```
+git remote add origin URL_QUE_COPIASTE
+```
+8. hacemos `git branch --set-upstream-to=origin/master master` para que enlace nuestra rama principal con la rama principal de github.
+9. Hacemos `git pull -r` para traer los archivos de github.
+10. hacemos cambios en nuestro proyecto
+11. Hacemos `git push --all` para subir nuestros cambios a github
