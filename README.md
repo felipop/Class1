@@ -93,4 +93,7 @@ git remote add origin URL_QUE_COPIASTE
 8. hacemos `git branch --set-upstream-to=origin/master master` para que enlace nuestra rama principal con la rama principal de github.
 9. Hacemos `git pull -r` para traer los archivos de github.
 10. hacemos cambios en nuestro proyecto
-11. Hacemos `git push --all` para subir nuestros cambios a github
+##### Iteración completa
+11. hacemos la iteración básica
+12. Hacemos `git push --all` para subir nuestros cambios a github
+13. comprobamos en github
