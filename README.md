@@ -7,9 +7,9 @@
 - [x] Crear un repositorio
 - [x] Crear una cuenta en github
 - [x] Enlazar el repositorio con github
-- [ ] Crear una rama de trabajo
-- [ ] Guardar los cambios del proyecto
-- [ ] Aplicar cambios en la rama principal
+- [x] Crear una rama de trabajo
+- [x] Guardar los cambios del proyecto
+- [x] Aplicar cambios en la rama principal
 
 ### 1. **¿Qué es GIT y GitHub?**
 Git es un sistema que nos permite almacenar y gestionar los cambios de nuestros proyectos. Esto nos sirve para trabajar en equipo un mismo proyecto y saber quién hizo cada modificación. También para volver a una versión anterior en caso de que alguien haga un cambio que genere un error en el programa o en caso de que queramos ver cómo estaba el código antes.  
@@ -97,16 +97,20 @@ git remote add origin URL_QUE_COPIASTE
 11. hacemos la iteración básica
 12. Hacemos `git push --all` para subir nuestros cambios a github
 13. comprobamos en github
-##### Plus
+### 7. **Crear una rama de trabajo**
 Podemos subir nuestras páginas web a github y hacer que él la muestre.
 1. subir los cambios de nuestra página web
 2. crear la rama gh-pages con el comando `git branch gh-pages`
 3. hacemos `git push --all`
 4. revisamos en github
-##### añadir más contenido
+### 8. **Aplicar cambios en la rama principal**
 Podemos añadir contenido a master y luego aplicar los cambios en gh-pages.
 1. Hacer cambios
 2. Hacemos la iteración básica
 3. Vamos a la rama gh-pages con el comando `git checkout gh-pages`
 > El comando `git checkout rama` sirve para cambiarnos de rama
-4. Estando en la rama gh-pages aplicamos lo cambios con el comando `git merge master`
+4. Estando en la rama gh-pages aplicamos lo cambios con el comando `git merge master`Hacemos 
+5. hacemos `git push --all` para subir los cambios
+> Para aplicar cambios de una rama a otra, por ejemplo, aplicar los cambios de develop a master hacemos
+> `git chechout master`
+> `git merge develop`
