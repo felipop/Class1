@@ -1,15 +1,15 @@
 # FIRST CLASS
 ## GIT - GITHUB
 ### Temas
-[ ] ¿Qué es GIT y GitHub?
-[ ] Instalar git
-[ ] Crear un proyecto
-[ ] Crear un repositorio
-[ ] Crear una cuenta en github
-[ ] Enlazar el repositorio con github
-[ ] Crear una rama de trabajo
-[ ] Guardar los cambios del proyecto
-[ ] Aplicar cambios en la rama principal
+- [ ] ¿Qué es GIT y GitHub?
+- [ ] Instalar git
+- [ ] Crear un proyecto
+- [ ] Crear un repositorio
+- [ ] Crear una cuenta en github
+- [ ] Enlazar el repositorio con github
+- [ ] Crear una rama de trabajo
+- [ ] Guardar los cambios del proyecto
+- [ ] Aplicar cambios en la rama principal
 
 1. ¿Qué es GIT y GitHub?
 Git es un sistema que nos permite almacenar y gestionar los cambios de nuestros proyectos. Esto nos sirve para trabajar en equipo un mismo proyecto y saber quién hizo cada modificación. También para volver a una versión anterior en caso de que alguien haga un cambio que genere un error en el programa o en caso de que queramos ver cómo estaba el código antes.
