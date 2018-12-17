@@ -11,10 +11,10 @@
 - [ ] Guardar los cambios del proyecto
 - [ ] Aplicar cambios en la rama principal
 
-1. **¿Qué es GIT y GitHub?**
+### 1. **¿Qué es GIT y GitHub?**
 Git es un sistema que nos permite almacenar y gestionar los cambios de nuestros proyectos. Esto nos sirve para trabajar en equipo un mismo proyecto y saber quién hizo cada modificación. También para volver a una versión anterior en caso de que alguien haga un cambio que genere un error en el programa o en caso de que queramos ver cómo estaba el código antes.
 GitHub es una plataforma que nos permite trabajar con git facilmente y tener un lugar principal en donde se encuentra el código, lo cual permite trabajar en equipo facilmente.
-2. **Instalar git**
+### 2. **Instalar git**
 Vas a la página de git y en la parte de descargas buscas tu sistema operativo.
 En el caso de windows viene un instalador con muchas opciones, esto es lo que debes seleccionar:
 * En select components seleccionar todas
@@ -31,7 +31,7 @@ Usar el siguiente comando para comprobar que se instaló.
 git --version 
 ```
 Se puede usar cualquier consola para trabajar con git
-3. **Crear un proyecto**
+### 3. **Crear un proyecto**
 Para crear un repositorio te posicionas en la carpeta en donde tienes el proyecto así
 ```
 cd <FOLDER PATH>
@@ -62,7 +62,7 @@ ls -lha     // Combina los 4 primeros comandos
 El comando `mkdir carpeta` crea una carpeta con ese nombre
 El comando `touch archivo` crea un archivo con ese nombre y si ya existe le cambia la fecha de creación
 
-4. **Crear un repositorio**
+### 4. **Crear un repositorio**
 ##### Config
 Para que tu equipo pueda saber quién eres debes configurar git para que te reconozca
 El comando `git config --global user.name "TU NOMBRE"` guarda tu nombre 
@@ -77,9 +77,9 @@ El comando `rm -rf carpeta` elimina una carpeta
 El comando `git status` nos dice cuales cambios no se han guardado
 El comando `git add -A` prepara los cambios para ser guardados
 El comando `git commit -m "mensaje"` guarda los cambios con el mensaje que le digamos
-5. **Crear una cuenta en github**
+### 5. **Crear una cuenta en github**
 Registro básico
-6. **Enlazar el repositorio con github**
+### 6. **Enlazar el repositorio con github**
 Creamos un nuevo repositorion en github con el nombre del proyecto 
 Lo inicializamos con un README
 Elegimos la licencia que queremos que tenga el proyecto, en github todo es público
