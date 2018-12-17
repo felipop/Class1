@@ -100,3 +100,6 @@ git remote add origin URL_QUE_COPIASTE
 ##### Plus
 Podemos subir nuestras páginas web a github y hacer que él la muestre.
 1. subir los cambios de nuestra página web
+2. crear la rama gh-pages con el comando `git branch gh-pages`
+3. hacemos `git push --all`
+4. revisamos en github
