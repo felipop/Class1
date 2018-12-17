@@ -111,6 +111,7 @@ Podemos añadir contenido a master y luego aplicar los cambios en gh-pages.
 > El comando `git checkout rama` sirve para cambiarnos de rama
 4. Estando en la rama gh-pages aplicamos lo cambios con el comando `git merge master`Hacemos 
 5. hacemos `git push --all` para subir los cambios
-> Para aplicar cambios de una rama a otra, por ejemplo, aplicar los cambios de develop a master hacemos
-> `git chechout master`
+> Para aplicar cambios de una rama a otra, por ejemplo, aplicar los cambios de develop a master hacemos  
+> `git chechout master`  
 > `git merge develop`
+El comando `git branch` nos sirve para ver las ramas que tenemos
