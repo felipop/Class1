@@ -103,3 +103,10 @@ Podemos subir nuestras páginas web a github y hacer que él la muestre.
 2. crear la rama gh-pages con el comando `git branch gh-pages`
 3. hacemos `git push --all`
 4. revisamos en github
+##### añadir más contenido
+Podemos añadir contenido a master y luego aplicar los cambios en gh-pages.
+1. Hacer cambios
+2. Hacemos la iteración básica
+3. Vamos a la rama gh-pages con el comando `git checkout gh-pages`
+> El comando `git checkout rama` sirve para cambiarnos de rama
+4. Estando en la rama gh-pages aplicamos lo cambios con el comando `git merge master`
