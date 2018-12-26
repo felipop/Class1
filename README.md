@@ -114,4 +114,4 @@ Podemos añadir contenido a master y luego aplicar los cambios en gh-pages.
 > Para aplicar cambios de una rama a otra, por ejemplo, aplicar los cambios de develop a master hacemos  
 > `git chechout master`  
 > `git merge develop`  
-El comando `git branch` nos sirve para ver las ramas que tenemos
+El comando `git branch` nos sirve pwqara ver las ramas que tenemos
