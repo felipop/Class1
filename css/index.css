@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+.header{
+    background-color: #493535;
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+} 
+.menu a{
+    flex-grow: 1;
+    text-decoration: none;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.menu a:hover{
+    background-color: burlywood;
+    color: black;
+}
+.menu .selected{
+    background-color: burlywood;
+    color: black;
+}
+.productos{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.carousel-container{
+    width:70%
+}
+.mision{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.footer{
+    width:100%;
+    height: 100px;
+    background-color: #493535;
+    color:white;
+}
+.social{
+
+}
+.social a img{
+    width:20px;
+}
