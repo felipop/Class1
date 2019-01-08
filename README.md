@@ -1,4 +1,4 @@
-# FIRST CLASS
+﻿# FIRST CLASS
 ## GIT - GITHUB
 ### Temas
 - [x] ¿Qué es GIT y GitHub?
@@ -111,6 +111,7 @@ Podemos añadir contenido a master y luego aplicar los cambios en gh-pages.
 > El comando `git checkout rama` sirve para cambiarnos de rama
 4. Estando en la rama gh-pages aplicamos lo cambios con el comando `git merge master`Hacemos 
 5. hacemos `git push --all` para subir los cambios
+6. para subir los cambios de una sola rama hacemos `git pull origin RAMA`
 > Para aplicar cambios de una rama a otra, por ejemplo, aplicar los cambios de develop a master hacemos  
 > `git chechout master`  
 > `git merge develop`  

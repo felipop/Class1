@@ -1,13 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: burlywood;
+    background-image: url("https://image.freepik.com/foto-gratis/textura-negra-fondo_1160-614.jpg");
+    width: 100%;
+    height: 100px;
 }
 .header{
     background-color: #493535;
     display:flex;
     flex-direction: column;
     color: white;
+    
 }
 .menu {
     display: flex;
@@ -32,27 +35,38 @@ body{
     background-color: burlywood;
     color: black;
 }
-.productos{
-    display:flex;
-    align-items: center;
-    flex-direction: column;
+.titulo{
+    color: white;
+}
+div  {
+    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+  }
+
+.navegacion a {
+    height: 120%;
+}
+.titulo {
+ display: flex;
+ align-items: center;   
+ flex-direction: column;
     margin: 50px;
 }
-.carousel-container{
-    width:70%
-}
-.mision{
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 50px;
-}
+.texto {
+    margin: 50;
+    padding: 10;
+    color:white;
+   }
+  
 .footer{
     width:100%;
-    height: 140px;
+    height: 110px;
     background-color: #493535;
     color:white;}
-.social a img{
+    .social a img{
+        width:50px;
+        margin: 20px;
+    }
+.header a img {
     width:50px;
-    margin: 20px;
-}
+    margin: 20px;  
+} 
